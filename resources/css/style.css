@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 90%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header {
+  flex-direction: row;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-left: 10px;
+  color: seashell;
+}
+
+.navigation ul {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.hero {
+  display: flex;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+}
+
+h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.images h4 {
+  height: 10px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-around;
+}
+
+.downtown,
+.oakdale,
+.bayside {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.contact h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+    position: relative;
+    left: 20px;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
